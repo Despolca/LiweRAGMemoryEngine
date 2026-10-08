@@ -1,0 +1,17 @@
+{
+  "display_name": "LIWE · RAG Memory Engine",
+  "name": "character-diary",
+  "id": "character-diary",
+  "version": "2.18.2",
+  "description": "Tự động viết nhật ký góc nhìn thứ nhất cho mỗi nhân vật trong cốt truyện, tạo hồ sơ cốt truyện và hướng dẫn nhân vật trọng tâm. Thêm mới [Diễn đàn thế giới · Cộng đồng xuyên thế giới]: Luồng bài viết xuyên thế giới, nhật ký riêng tư của nhân vật (khóa nhìn trộm tàng hình + mở khóa bằng xin lỗi công khai), phục dựng IP doujin, Image-to-Image chân thực (thư viện ảnh/xem ảnh/album/12 bộ phong cách vẽ/prompt có thể chỉnh sửa). Thêm mới và cường hóa [Đài tiêm nghi thức] (Hệ thống khế ước): Xúc xắc định mệnh/Engine hảo cảm/Danmaku/Diễn đàn/Khởi tạo Frontend và các prompt mang tính gợi mở khác. Tái cấu trúc UI cột đơn kiểu Xiaohongshu, khắc phục triệt để lỗi chồng chéo bảng điều khiển, phối màu bảo vệ mắt (Trắng kem xanh đen ban ngày/Xanh đen đậm nửa đêm ban đêm), liên kết Worldbook, truy xuất vector + Rerank, di chuyển toàn bộ. v2.11.0: Viết lại nhật ký nhân vật thành nhật ký nội tâm riêng tư mang cảm giác người thật dài 300~520 chữ (bộc bạch thẳng thắn + thư viện chất liệu nội tâm + vòng lặp trí nhớ), thêm mũi tên đi thẳng đến diễn đàn và quay lại trí nhớ, sửa Bug ranh giới độ lệch điểm neo trí nhớ và luồng jsonl/chat. v2.14.0: Viết lại prompt nhật ký nhân vật (bỏ văn mẫu/lệnh cấm toàn tri/sự kiện quan trọng mang theo cảm xúc), nhật ký thêm hai mức độ đơn giản/phức tạp (có thể thu gọn), tóm tắt tự động thêm độ trễ so le (mặc định 20 giây), nén hồ sơ cốt truyện đổi thành \"giảm béo không cắt chi\" (những chuyện đã trải qua không mất một kiện nào), ẩn công tắc quan hệ nhân vật. v2.15.1: Thêm [Âm báo kết thúc trả lời của AI] - Phát âm báo ngay khi AI tạo xong toàn bộ đoạn trả lời (mặc định bật), có thể tắt/nghe thử ngay/khôi phục mặc định trong bảng cài đặt, đồng thời hỗ trợ người dùng tải lên âm thanh tùy chỉnh làm âm báo (icon thuần SVG, lưu trữ local). v2.15.2: Âm báo thêm [Thời điểm kích hoạt] chọn một trong ba - Sau khi AI trả lời / Sau khi plugin tóm tắt / Cả hai đều đổ chuông. v2.15.3: Sửa lỗi xóa hàng loạt timeline hồ sơ cốt truyện không có tác dụng (không xóa được mục nhiều dòng), rút ngắn chữ thời điểm kích hoạt để thích ứng với màn hình hẹp của điện thoại. v2.15.4: Sửa lỗi xóa hàng loạt timeline cốt truyện (mục nhiều dòng), thêm cuộn mượt [Quay lại đầu trang sau khi trả lời], xử lý tình trạng phình to địa điểm trong hồ sơ cốt truyện (chỉ giữ lại quỹ đạo gần đây), sửa lỗi ô nhiễm prompt viết hồ sơ (văn bản giải thích lọt vào tuyến chính).",
+  "type": "extension",
+  "js": "index.js",
+  "css": "style.css",
+  "author": "liwe",
+  "homePage": "https://github.com/Despolca/LiweRAGMemoryEngine",
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/Despolca/LiweRAGMemoryEngine"
+  },
+  "requires": []
+}
