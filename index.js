@@ -633,8 +633,7 @@ async function cdRerank(query, documents, cfg) {
   const key = cfg.key || '';
   const model = cfg.model || '';
   if (!rawBase || !model) throw new Error('Rerank chưa cấu hình base/model');
-  const mappedDocs = documents.map(d => typeof d === 'string' ? d : (d.text || d.content || JSON.stringify(d)));
-  const body = { model, query, documents: mappedDocs };
+  const body = { model, query, documents };
   const headers = { 'Content-Type': 'application/json' };
   if (key) headers.Authorization = `Bearer ${key}`;
   // base có thể có /v1 hoặc không, tạo tổ hợp endpoint ứng viên: base/v1 có mang theo hậu tố /rerank /v1/rerank không
